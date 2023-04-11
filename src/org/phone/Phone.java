@@ -23,15 +23,18 @@ public class Phone {
 
 	System.out.println(Details);
 		
-
 	}
 
+	private void phonename() {
+		System.out.println("My Phone is Lenova K8 puls pro");
+		}
+	
 	public static void main(String[] args) {
 	Phone p = new Phone();
 	p.phoneInfo("LAVA", 2010, 10070.345f, 98765432100l);
 	p.phoneInfo(9566115432l, "Purusho", 2020, 100);
 	p.phoneInfo("All Details Not real");
-		
+	p.phonename();	
 		
 	}
 }
